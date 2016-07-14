@@ -1,0 +1,90 @@
+
+/* --- reset.css --- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+/* --- fonts --- */
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular/ProximaNova-Regular.eot') format('embedded-opentype'),
+       url('../fonts/ProximaNova-Regular/ProximaNova-Regular.woff') format('woff'),
+       url('../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Regular/ProximaNova-Regular.svg') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/ProximaNova-Bold/ProximaNova-Bold.eot') format('embedded-opentype'),
+       url('../fonts/ProximaNova-Bold/ProximaNova-Bold.woff') format('woff'),
+       url('../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Bold/ProximaNova-Bold.svg') format('svg');
+}
+
+
+/* --- main styles --- */
+
+body{
+  font: 14px/21px 'ProximaNova-Regular', Arial, Helvetica, sans-serif ;
+}
+#wrap{
+}
+
+#bg_main{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* --- @media --- */
+
+@media (max-width: 1040px){
+}
