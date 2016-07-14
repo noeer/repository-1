@@ -6,3 +6,4 @@ CharsetDefault utf-8
 </IfModule>
 
 Options All -Indexes
+# commit in branch new_f2
